@@ -1,0 +1,11 @@
+create database hospital_management;
+use hospital_management;
+
+create table appointment ( 
+	id INT(10) AUTO_INCREMENT, 
+	phone char(15), 
+	name char(50),
+    appt_date char(30),
+    doctor_name char(50),
+	PRIMARY KEY(id) 
+);
